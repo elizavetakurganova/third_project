@@ -1,0 +1,13 @@
+.place {
+    display: grid;
+    grid-template-columns: 460px auto;
+    grid-row-gap: 48px;
+    grid-column-gap: 40px;
+}
+
+@media screen and (max-width: 425px) {
+    .place {
+        display: flex;
+        flex-direction: column;
+    }
+}
